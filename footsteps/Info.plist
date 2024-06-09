@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>歩数読み取るけど、ええか？(UPDATE)</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>歩数読み取るけど、ええか？(SHARE)</string>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>歩数読み取るけど、ええか？(RECORD)</string>
+</dict>
+</plist>
