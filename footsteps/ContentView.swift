@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import Foundation
 
 struct ContentView: View {
     
@@ -22,8 +23,8 @@ struct ContentView: View {
         
         // 歩数データを取得する関数を呼ぶ（引数は期間）
         contentVM.get(
-            fromDate: dateformatter.date(from: "2024/06/08 00:00:00")!,
-            toDate: dateformatter.date(from: "2024/06/08 23:59:59")!
+            fromDate: Calendar.current.beginningOfDay(datetime: Date()),
+            toDate: Calendar.current.endOfDay(datetime: Date())
         )
     }
     

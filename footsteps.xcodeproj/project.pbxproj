@@ -19,6 +19,8 @@
 		20D9C91A2C15D3D10065F302 /* HealthKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D9C9192C15D3D10065F302 /* HealthKitUI.framework */; };
 		20D9C91E2C15D7140065F302 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D9C91D2C15D7140065F302 /* ContentViewModel.swift */; };
 		20D9C9202C15D72E0065F302 /* ListRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D9C91F2C15D72E0065F302 /* ListRowItem.swift */; };
+		20D9C9222C15E8BA0065F302 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D9C9212C15E8BA0065F302 /* CoreLocation.framework */; };
+		20D9C9242C1891C30065F302 /* calendar_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D9C9232C1891C30065F302 /* calendar_extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		20D9C91C2C15D60A0065F302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		20D9C91D2C15D7140065F302 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		20D9C91F2C15D72E0065F302 /* ListRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItem.swift; sourceTree = "<group>"; };
+		20D9C9212C15E8BA0065F302 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		20D9C9232C1891C30065F302 /* calendar_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar_extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D9C9222C15E8BA0065F302 /* CoreLocation.framework in Frameworks */,
 				20D9C9182C15D3C80065F302 /* HealthKit.framework in Frameworks */,
 				20D9C91A2C15D3D10065F302 /* HealthKitUI.framework in Frameworks */,
 			);
@@ -118,6 +123,7 @@
 				20D9C8F22C15D3B20065F302 /* Preview Content */,
 				20D9C91D2C15D7140065F302 /* ContentViewModel.swift */,
 				20D9C91F2C15D72E0065F302 /* ListRowItem.swift */,
+				20D9C9232C1891C30065F302 /* calendar_extension.swift */,
 			);
 			path = footsteps;
 			sourceTree = "<group>";
@@ -150,6 +156,7 @@
 		20D9C9162C15D3C80065F302 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20D9C9212C15E8BA0065F302 /* CoreLocation.framework */,
 				20D9C9192C15D3D10065F302 /* HealthKitUI.framework */,
 				20D9C9172C15D3C80065F302 /* HealthKit.framework */,
 			);
@@ -287,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20D9C91E2C15D7140065F302 /* ContentViewModel.swift in Sources */,
+				20D9C9242C1891C30065F302 /* calendar_extension.swift in Sources */,
 				20D9C8ED2C15D3B10065F302 /* ContentView.swift in Sources */,
 				20D9C8EF2C15D3B10065F302 /* Item.swift in Sources */,
 				20D9C9202C15D72E0065F302 /* ListRowItem.swift in Sources */,
